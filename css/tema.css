@@ -18,23 +18,38 @@ main{
   background-color: rgba(255, 255, 255, .8);
 }
 
+caption{
+  font-size: 1em;
+  font-weight: bold;
+  margin: 5px;
+}
+
 header#hprincipal{
-  font-family: "Aarvark Cafe" !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   position: relative;
-  width: 100%;
-  height: 200px;
+  width: 1000px;
+  height: 175px;
   border-bottom: 1px solid #000;
   background-image: url(../assets/bgh.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#tittleprincipal{
+  color: #fff;
+  position: relative;
+  margin-left: 75px;
 }
 
 header#hprincipal .logo{
   position: absolute;
-  width: 100px;
-  height: 100px;
-  top: 30px;
-  left: 30px;
+  width: 150px;
+  height: 100%;
+  top: 20px;
+  left: 35px;
   background-image: url(../assets/logo.png);
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 header#hprincipal h1{
@@ -71,7 +86,7 @@ nav.menu ul li a{
 
 nav.menu ul li a:hover,
 nav.menu ul li a.activo{
-  background-color: #e44a22;
+  background-color: rgb(90, 79, 85);
 }
 
 footer#fprincipal{
@@ -112,10 +127,10 @@ table tbody tr:nth-child(odd){
 }
 
 table tbody tr:nth-child(even){
-  background-color: rgba(241, 101, 41, .3);
+  background-color: rgb(90, 79, 85);
 }
 
 @font-face{
-  font-family: "Aarvark Cafe";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   src: url("../assets/tipografia.ttf");
 }
