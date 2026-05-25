@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="/css/tema.css"/>
 </head>
 <body>
-  <main>
+  <main id="main">
     <header id="hprincipal">
       <div class="logo"></div>
       <h1 id="tittleprincipal">Lista de etiquetas</h1>
@@ -40,6 +40,8 @@
                  < /header>
                 <br>
                 < header class="ejemplo">
+                <br>
+                < /header>
             </td>
             <td>
               Esta etiqueta define la cabecera de un documento o sección de él. Este frecuenta poseer logos, menús de navegación, títulos, etc.
@@ -51,15 +53,214 @@
             </td>
             <td>
               <header id="ejemplo">
-                Ejemplo de etiqueta header
+                <h1>Ejemplo de etiqueta header</h1>
               </header>
             </td>
             </tr>
             <tr>
-              <td>< dic ></td>
-              <td>div </td>
-              <td>Propiedades id</td>
-              <td>....</td>
+              <td>
+              < footer>
+                <br>
+                < footer id="piedepagina" class="footer">
+                <br>
+                < /footer>
+              </td>
+              <td>
+              Representa el pie de página de un documento o sección, con información de contacto, derechos de autor, enlaces a términos de uso, etc.
+              </td>
+              <td>
+                <p><b>id</b>:Se utiliza para identificar un elemento de forma única en el documento.</p>
+                <p><b>class</b>:Se utiliza para asignar una o más clases a un elemento, permitiendo aplicar estilos CSS específicos.</p>
+            </td>
+              </td>
+                <td>
+                  <footer id="piedepagina" class="footer">
+                    <p>&copy; 2026 Ejemplo de etiqueta footer</p>
+                  </footer>
+                </td>
+            </tr>
+            <tr>
+              <td>
+              < nav>
+                <br>
+                < nav id="ejemplo">
+                <br>
+                < ul>
+                <br>
+                  < li>< a href="#">Home</a></li>
+                  <br>
+                  < li>< a href="#">About</a></li>
+                  <br>
+                  < li>< a href="#">Services</a></li>
+                  <br>
+                  < li>< a href="#">Contact</a></li>
+                  <br>
+                < /ul>
+                <br>
+                < /nav>
+              </td>
+              <td>
+              Representa un menú de navegación, con enlaces a otras páginas o secciones del sitio web.
+              </td>
+              <td>
+                <p><b>ul</b>:Se utiliza para crear agrupaciones de elementos donde el orden no es relevante.</p>
+                <p><b>li</b>:Se utiliza para declarar uno de los elementos de una lista.</p>
+            </td>
+              </td>
+                <td>
+                  <nav id="ejemplo">
+                    <ul>
+                      <li><a href="#">Este es</a></li>
+                      <li><a href="#">un ejemplo</a></li>
+                      <li><a href="#">de</a></li>
+                      <li><a href="#">navegación</a></li>
+                    </ul>
+                  </nav>
+                </td>
+            </tr>
+            <tr>
+              <td>
+                < section>
+                <br>
+                < section id="ejemplo" class="section">
+                <br>
+                < /section>
+              </td>
+              <td>
+                Representa una sección de un documento que agrupa contenido temático.
+              </td>
+              <td>
+                <p><b>id</b>:Se utiliza para identificar un elemento de forma única en el documento.</p>
+                <p><b>class</b>:Se utiliza para asignar una o más clases a un elemento, permitiendo aplicar estilos CSS específicos.</p>
+              </td>
+              <td>
+                <section id="ejemplo" class="section">
+                  <h2>Ejemplo de etiqueta section</h2>
+                  <p>Esta es una sección de ejemplo.</p>
+                </section>
+              </td>
+            </tr>
+            <tr>
+              <td>< article>
+                <br>
+                < article id="ejemplo" class="article">
+                <br>
+                < /article>
+              </td>
+              <td>
+                Representa contenido independiente y auto-contenido, como un artículo de noticias, una entrada de blog, etc.
+              </td>
+              <td>
+                <p><b>id</b>:Se utiliza para identificar un elemento de forma única en el documento.</p>
+                <p><b>class</b>:Se utiliza para asignar una o más clases a un elemento, permitiendo aplicar estilos CSS específicos.</p>
+              </td>
+              <td>
+                <article id="ejemplo" class="article">
+                  <h2>Ejemplo de etiqueta article</h2>
+                  <p>Este es un artículo de ejemplo.</p>
+                </article>
+              </td>
+            </tr>
+            <tr>
+              <td>< aside>
+                <br>
+                < aside id="ejemplo" class="aside">
+                <br>
+                < /aside>
+              </td>
+              <td>
+                Representa contenido relacionado tangencialmente con el contenido principal, como barras laterales, anuncios, etc.
+              </td>
+              <td>
+                <p><b>id</b>:Se utiliza para identificar un elemento de forma única en el documento.</p>
+                <p><b>class</b>:Se utiliza para asignar una o más clases a un elemento, permitiendo aplicar estilos CSS específicos.</p>
+              </td>
+              <td>
+                <aside id="ejemplo" class="aside">
+                  <h3>Ejemplo de etiqueta aside</h3>
+                  <p>Este es un aside de ejemplo.</p>
+                </aside>
+              </td>
+            </tr>
+            <tr>
+              <td>< main>
+                <br>
+                < main id="ejemplo" class="main">
+                <br>
+                < /main>
+              </td>
+              <td>
+                Representa el contenido principal de un documento, que es único y relevante para el propósito del documento.
+              </td>
+              <td>
+                <p><b>id</b>:Se utiliza para identificar un elemento de forma única en el documento.</p>
+                <p><b>class</b>:Se utiliza para asignar una o más clases a un elemento, permitiendo aplicar estilos CSS específicos.</p>
+              </td>
+              <td>
+                <main id="ejemplo" class="main">
+                  <h1>Ejemplo de etiqueta main</h1>
+                  <p>Este es el contenido principal de ejemplo.</p>
+                </main>
+              </td>
+            </tr>
+            <tr>
+              <td> < div>
+                <br>
+                < div id="ejemplo" class="div">
+                <br>
+                < /div>
+              </td>
+              <td>
+                Representa una sección genérica de un documento, utilizada para agrupar contenido sin un significado específico.
+              </td>
+              <td>
+                <p><b>id</b>:Se utiliza para identificar un elemento de forma única en el documento.</p>
+                <p><b>class</b>:Se utiliza para asignar una o más clases a un elemento, permitiendo aplicar estilos CSS específicos.</p>
+              </td>
+              <td>
+                <div id="ejemplo" class="div">
+                  <h2>Ejemplo de etiqueta div</h2>
+                  <p>Este es un div de ejemplo.</p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>< h1>
+                <br>
+                < h1 id="ejemplo" class="h1">
+                <br>
+                < /h1>
+              </td>
+              <td>
+                Representa un encabezado de nivel 1, utilizado para títulos principales en un documento.
+              </td>
+              <td>
+                <p><b>id</b>:Se utiliza para identificar un elemento de forma única en el documento.</p>
+                <p><b>class</b>:Se utiliza para asignar una o más clases a un elemento, permitiendo aplicar estilos CSS específicos.</p>
+              </td>
+              <td>
+                <h1 id="ejemplo" class="h1">
+                  <span>Ejemplo de etiqueta h1</span>
+                </h1>
+              </td>
+            </tr>
+            <tr>
+              <td>< p>
+                <br>
+                < p id="ejemplo" class="p">
+                <br>
+                < /p>
+              </td>
+              <td>
+                Representa un párrafo de texto en un documento.
+              </td>
+              <td>
+                <p><b>id</b>:Se utiliza para identificar un elemento de forma única en el documento.</p>
+                <p><b>class</b>:Se utiliza para asignar una o más clases a un elemento, permitiendo aplicar estilos CSS específicos.</p>
+              </td>
+              <td>
+                <p id="ejemplo" class="p">Este es un párrafo de ejemplo.</p>
+              </td>
             </tr>
           </tbody>
         </table>

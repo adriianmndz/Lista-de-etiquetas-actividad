@@ -9,7 +9,7 @@ body{
   font-family: Arial;
 }
 
-main{
+main#main{
   position: relative;
   border: 1px solid #000;
   width: 1000px;
@@ -127,7 +127,7 @@ table tbody tr:nth-child(odd){
 }
 
 table tbody tr:nth-child(even){
-  background-color: rgb(90, 79, 85);
+  background-color: rgba(90, 79, 85, 0.500);
 }
 
 @font-face{
